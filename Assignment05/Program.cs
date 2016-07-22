@@ -7,12 +7,21 @@ using System.IO;
 
 namespace Assignment05
 {
+    /**
+     * Author name: Tetiana Reznychenko
+     * Student number: 300870231
+     * Description: This program is program to demonstrate understanding of File I/O and Exception Handling.
+     * Date: 20 July, 2016 
+     * Dame of modification: 22 July, 2016 
+     */
     class Program
     {
         static void Main(string[] args)
         {
+            //Try-Catch for cathing exceptions
             try
             {
+                //main menu
                 int menuchoice = 0;
                 while (menuchoice != 2)
                 {
